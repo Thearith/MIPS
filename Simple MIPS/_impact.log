@@ -1,0 +1,99 @@
+iMPACT Version: 14.7
+
+iMPACT log file Started on Fri Oct 31 12:18:16 2014
+
+Welcome to iMPACT
+iMPACT Version: 14.7
+Project: 'D:\CEG\Semester 5\CG3207\Lab\VHDL\Lab1\\auto_project.ipf' alreadyexists.
+Original project has been renamed to 'D:\CEG\Semester5\CG3207\Lab\VHDL\Lab1\\auto_project_1.ipf'.
+Project: D:\CEG\Semester 5\CG3207\Lab\VHDL\Lab1\\auto_project.ipf created.
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+INFO:iMPACT - Digilent Plugin: Plugin Version: 2.4.4
+INFO:iMPACT - Digilent Plugin: found 1 device(s).
+INFO:iMPACT - Digilent Plugin: opening device: "Nexys4", SN:210274533724
+INFO:iMPACT - Digilent Plugin: User Name: Nexys4
+INFO:iMPACT - Digilent Plugin: Product Name: Digilent Nexys4
+INFO:iMPACT - Digilent Plugin: Serial Number: 210274533724
+INFO:iMPACT - Digilent Plugin: Product ID: 01200151
+INFO:iMPACT - Digilent Plugin: Firmware Version: 0108
+INFO:iMPACT - Digilent Plugin: JTAG Port Number: 0
+INFO:iMPACT - Digilent Plugin: JTAG Clock Frequency: 10000000 Hz
+Attempting to identify devices in the boundary-scan chain configuration...
+INFO:iMPACT - Current time: 10/31/2014 12:18:21 PM
+// *** BATCH CMD : Identify -inferir 
+PROGRESS_START - Starting Operation.
+Identifying chain contents...'0': : Manufacturer's ID = Xilinx XC7A100T, Version : 1
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/14.7/ISE_DS/ISE/artix7/data/xc7a100t.bsd...
+INFO:iMPACT - Using CseAdapterBSDevice
+INFO:iMPACT:501 - '1': Added Device XC7A100T successfully.
+----------------------------------------------------------------------
+done.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : identifyMPM 
+// *** BATCH CMD : assignFile -p 1 -file "D:/CEG/Semester5/CG3207/Lab/VHDL/Lab3v1/top.bit"
+'1': Loading file 'D:/CEG/Semester 5/CG3207/Lab/VHDL/Lab3v1/top.bit' ...
+done.
+INFO:iMPACT - Using CseAdapterBSDevice
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+UserID read from the bitstream file = 0xFFFFFFFF.
+Data width read from the bitstream file = 1.
+INFO:iMPACT:501 - '1': Added Device xc7a100t successfully.
+----------------------------------------------------------------------
+INFO:iMPACT - Current time: 10/31/2014 12:18:54 PM
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 66000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+1: Device Temperature: Current Reading:   36.59 C, Min. Reading:   35.61 C, Max.Reading:   45.45 C
+1: VCCINT Supply: Current Reading:   1.005 V, Min. Reading:   1.002 V, Max.Reading:   1.008 V
+1: VCCAUX Supply: Current Reading:   1.799 V, Min. Reading:   1.799 V, Max.Reading:   1.802 V
+INFO:iMPACT - Creating XC7A100T device.
+PROGRESS_START - Starting Operation.
+'1': Programming device...
+ Match_cycle = NoWait.
+Match cycle: NoWait
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+done.
+INFO:Cse - Status register values:
+INFO:Cse - 0011 1111 1001 1110 0000 1000 0000 0010 
+INFO:Cse - '1': Completed downloading bit file to device.
+INFO:Cse - '1': Programming completed successfully.
+ Match_cycle = NoWait.
+Match cycle: NoWait
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      3 sec.
+Project: 'D:\CEG\Semester 5\CG3207\Lab\VHDL\Lab1\\auto_project.ipf' created.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : saveProjectFile -file "D:\CEG\Semester5\CG3207\Lab\VHDL\Lab1\\auto_project.ipf"
+// *** BATCH CMD : setMode -bs
+INFO:iMPACT - Launching WebTalk, please refer to the webtalk log at   D:\CEG\Semester 5\CG3207\Lab\VHDL\Lab1\webtalk.log for details.
+
+ERROR:iMPACT - QProcess Time Out when running the command   "C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\wbtc.exe -f D:\CEG\Semester   5\CG3207\Lab\VHDL\Lab1\impact_impact.xwbt" from a command prompt INFO:iMPACT - Running wbtc successfully.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
